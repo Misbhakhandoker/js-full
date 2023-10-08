@@ -37,3 +37,30 @@ console.log(typeof myFunction);
 // https://262.ecma-international.org/5.1/#sec-11.4.3  
 
 // search keywords => The typeof Operator
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive), Heap(Non-primitive)
+
+let myYoutubename = "mijbahcoder"
+
+let anothername = myYoutubename
+anothername ="codeLife"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "mijbah@google.com"
+
+console.log(userOne);
+console.log(userTwo);
